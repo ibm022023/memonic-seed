@@ -2,7 +2,7 @@ import urllib
 import re
 import csv
 
-replace_word = "http://www.mnemonicdictionary.com/?word=%REPLACEWORD%"
+url = "http://www.mnemonicdictionary.com/?word=%REPLACEWORD%"
 
 regex = re.compile(r'[<]i class[=]\"icon-lightbulb\"[>][<]\/i[>]\s*.*')
 
